@@ -1,0 +1,134 @@
+/* Reset de estilos padrão do navegador */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    max-width: 950px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Menu lateral */
+.menu {
+    padding: 20px;
+    text-align: center;
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+/* Imagem do menu */
+.menu img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Título do menu */
+.menu h2 {
+    margin: 10px 0;
+}
+
+/* Informações adicionais do menu */
+.menu p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Estilização dos links do menu */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    background-color: #27ae60;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #218c53;
+}
+
+/* Área principal de conteúdo */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Layout da tabela e seus elementos */
+.table-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin-right: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Área de adição/remoção de tarefas */
+.add-remove-tarefa {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Entrada de texto para nova tarefa */
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Botões de ação */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
